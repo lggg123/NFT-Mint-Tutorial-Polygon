@@ -1,46 +1,6 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/georgealexanderlugo/Desktop/nft_collection/polygon_retry/contracts/NFT.sol": {
-      "lastModificationDate": 1699826501519,
-      "contentHash": "a1fb64e19286b5cd21c9a1c1fede9f42",
-      "sourceName": "contracts/NFT.sol",
-      "solcConfig": {
-        "version": "0.8.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
-        "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
-        "@openzeppelin/contracts/utils/Counters.sol",
-        "@openzeppelin/contracts/access/Ownable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.12"
-      ],
-      "artifacts": [
-        "NFT"
-      ]
-    },
     "/Users/georgealexanderlugo/Desktop/nft_collection/polygon_retry/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
       "lastModificationDate": 1699825410262,
       "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
@@ -660,6 +620,46 @@
         "^0.8.0"
       ],
       "artifacts": []
+    },
+    "/Users/georgealexanderlugo/Desktop/nft_collection/polygon_retry/contracts/NFTCollection.sol": {
+      "lastModificationDate": 1699835926458,
+      "contentHash": "b646360e5217474f17881732b13990e6",
+      "sourceName": "contracts/NFTCollection.sol",
+      "solcConfig": {
+        "version": "0.8.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+        "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
+        "@openzeppelin/contracts/utils/Counters.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.12"
+      ],
+      "artifacts": [
+        "NFTCollection"
+      ]
     }
   }
 }

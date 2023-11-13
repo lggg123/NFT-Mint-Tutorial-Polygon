@@ -23,3 +23,5 @@
 ### Once that is done simply type this in the terminal to mint your NFT. `npx hardhat run scripts/mint-nft.mjs`
 
 ### Depending on the network you can check your NFT as long as you are logged into the same wallet you grabbed the private key for. If you deployed to Polygon Mumbai testnet simply check on testnets.opensea.io if on the mainnet check on opensea.io
+
+### if you pull the other branches using these commands, you also have a script to upload and mint multiple NFTs.
